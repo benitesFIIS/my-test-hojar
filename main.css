@@ -1,0 +1,41 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.block{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.block-1{
+    background: red;
+}
+.block-2{
+    background: blue;
+}
+.block-3{
+    background: violet;
+}
+.block-4{
+    background: green;
+}
+.block-5{
+    background: grey;
+}
+.block-6{
+    background: yellow;
+}
+.block-7{
+    background: lightseagreen;
+}
