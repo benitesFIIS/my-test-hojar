@@ -39,3 +39,9 @@
 .block-7{
     background: lightseagreen;
 }
+
+table{
+    border-collapse: collapse;
+    }td, th /* Poner borde en td y th */{
+    border: 1px solid black;
+}
