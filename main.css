@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color : #ffffff;
 }
 .main-content{
     display: flex;
@@ -10,12 +11,12 @@
     flex-wrap: wrap;
 }
 .block{
-    width: 40%;
-    height: 300px;
+    width: 20%;
+    height: 155px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(3, 15, 72);
     border-radius: 5px;
 }
 .block-1{
@@ -45,3 +46,36 @@ table{
     }td, th /* Poner borde en td y th */{
     border: 1px solid black;
 }
+
+header {
+    background: rgba(5, 40, 123, 0.7);
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+  }
+
+  nav {
+    float: left;
+  }
+
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+
+  nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+  }
+
+  nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul li:hover {
+    background: #eca023;
+  }
